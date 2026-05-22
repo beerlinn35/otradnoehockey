@@ -1,0 +1,46 @@
+html {
+  background-color: #390551;
+  background-image: url("https://protradnoe.ru/Files/image/txw5v1icytyl5ncxsrgilk5rtnll-yvxigtuvtghlsazqldu7w4pnggkzcpcudypapyc-croaquk70sgpbn9w1jn__1_.jpg");
+  background-size: cover;
+  background-position: center;
+}
+html {
+  font-size: 14px; /* px значит 'пиксели': базовый шрифт будет 10 пикселей в высоту  */
+  font-family: Sofia Sans Condensed;
+}
+.sofia-sans-condensed-<uniquifier> {
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 423;
+  font-style: italic;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black;
+}
+
+p, li {
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+body {
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #29759EF5;
+  padding: 0 50px 100px 50px;
+  border: 0px solid black;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
