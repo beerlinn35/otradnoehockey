@@ -1,8 +1,8 @@
 html {
   background-color: #390551;
-  background-image: url("https://protradnoe.ru/Files/image/txw5v1icytyl5ncxsrgilk5rtnll-yvxigtuvtghlsazqldu7w4pnggkzcpcudypapyc-croaquk70sgpbn9w1jn__1_.jpg");
+  background-image: url("background_4.jpg");
   background-size: cover;
-  background-position: center;
+  /*! background-position: center; */
 }
 html {
   font-size: 14px; /* px значит 'пиксели': базовый шрифт будет 10 пикселей в высоту  */
@@ -26,21 +26,48 @@ h1 {
   text-shadow: 3px 3px 1px black;
 }
 
+h2{
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+h3{
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
 p, li {
   font-size: 20px;
   line-height: 1;
   letter-spacing: 1px;
 }
 
+#vk {
+  margin-left: 20px;
+}
+
 body {
   width: 1000px;
   height: auto;
   margin: 0 auto;
-  background-color: #29759EF5;
+  /*! background-color: #29759ED4; */
   padding: 0 50px 100px 50px;
   border: 0px solid black;
+  background-image: linear-gradient(#29759ED4,#d3d3d3ed);
 }
-img {
+
+.header-row img {
+  /*! margin-top: 0px; */
+}
+
+img[src="images/team.jpg"] {
   display: block;
   margin: 0 auto;
-}
+  border: 1px solid gold;
+ }
